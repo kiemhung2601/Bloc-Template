@@ -1,0 +1,34 @@
+{
+  // Setting code style
+  "dart.lineLength": 120,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+      120
+    ]
+  },
+  // Setting flutter
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+  "search.exclude": {
+    "**/*.freezed.dart": true,
+    "**/*.g.dart": true,
+    "**/.fvm": true,
+    "**/.git": true,
+    "**/*.gr.dart": true,
+    "**/*.mocks.dart": true,
+    "**/*.config.dart": true,
+    "**/*.gen.dart": true,
+    "**/*.graphql.dart": true
+  },
+  // Setting theme
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#4C6EE0",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#4C6EE0",
+    "titleBar.inactiveForeground": "#000000"
+  },
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
