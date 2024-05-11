@@ -1,5 +1,4 @@
 {
-  // Setting code style
   "dart.lineLength": 120,
   "[dart]": {
     "editor.formatOnSave": true,
@@ -7,8 +6,7 @@
       120
     ]
   },
-  // Setting flutter
-  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  "dart.flutterSdkPath": ".fvm/versions/3.19.0",
   "files.watcherExclude": {
     "**/.fvm": true
   },
@@ -23,7 +21,6 @@
     "**/*.gen.dart": true,
     "**/*.graphql.dart": true
   },
-  // Setting theme
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#4C6EE0",
     "titleBar.activeForeground": "#ffffff",

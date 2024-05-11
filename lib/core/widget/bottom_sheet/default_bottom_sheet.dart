@@ -27,8 +27,8 @@ extension DefaultBottomSheetExtension on BuildContext {
     );
   }
 
-  PersistentBottomSheetController<T> showDefaultBottomSheet<T>(DefaultBottomSheet bottomSheet) {
-    return showBottomSheet<T>(
+  PersistentBottomSheetController showDefaultBottomSheet(DefaultBottomSheet bottomSheet) {
+    return showBottomSheet(
       context: this,
       elevation: 0,
       enableDrag: true,
