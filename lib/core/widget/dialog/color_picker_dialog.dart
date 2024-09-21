@@ -7,7 +7,6 @@ import 'default_dialog.dart';
 extension ColorPickerDialogExt on BuildContext {
   Future<Color?> showColorPickerDialog(ColorPickerDialog dialog) => showDialog(
         context: this,
-        useRootNavigator: true,
         builder: (BuildContext context) => dialog,
       );
 }

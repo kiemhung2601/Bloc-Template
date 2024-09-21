@@ -89,7 +89,7 @@ class AppAutocomplete<T extends Object> extends StatelessWidget {
           ),
           margin: const EdgeInsets.only(top: 4),
           decoration: BoxDecoration(
-            color: context.colorScheme.background,
+            color: context.colorScheme.surface,
             borderRadius: BorderRadius.circular(12),
             border: Border.all(color: context.colorScheme.primary),
             boxShadow: [

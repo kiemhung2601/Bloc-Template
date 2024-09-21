@@ -2,7 +2,6 @@ import 'package:flutter/foundation.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:injectable/injectable.dart';
 
-import '../../core/config/injector.dart';
 import '../model/response/user.dart';
 import '../repository/user_repository.dart';
 import 'base_provider.dart';
@@ -34,8 +33,8 @@ class AuthProvider extends BaseProvider<UserRepository> {
   }
 
   Future signIn(String id, String password) async {
-    final user = await getIt.get<UserRepository>().signIn(id, password);
-    // final user = User();
+    // final user = await getIt.get<UserRepository>().signIn(id, password);
+    final user = User();
     await storage.saveItem<User>(_keyUser, user);
     await fetchUser();
   }

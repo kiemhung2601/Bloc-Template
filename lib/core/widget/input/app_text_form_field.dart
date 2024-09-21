@@ -102,7 +102,7 @@ class AppTextFormFieldState<T extends AppTextFormField> extends State<T> with Te
       onTap: onTap,
       decoration: buildDecoration(context),
       obscuringCharacter: '*',
-      cursorColor: context.colorScheme.onBackground,
+      cursorColor: context.colorScheme.onSurface,
       showCursor: widget.showCursor,
       style: widget.style,
       keyboardType: widget.keyboardType,
